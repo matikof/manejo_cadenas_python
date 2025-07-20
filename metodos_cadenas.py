@@ -14,3 +14,9 @@ cadena2 = " Juan Perez "
 #.strip() para eliminar espacios tanto al inicio como en el final
 print(f"Cadena con espacios: {cadena2}")
 print(f"Cadena sin espacios: {cadena2.strip()}")
+
+#Método len() para obtener el largo de algun elemento
+saludo = "Hola, mundo!"
+largo_cadena = len(saludo)
+print(f"Largo de la cadena: {largo_cadena}")
+
